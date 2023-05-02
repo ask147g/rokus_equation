@@ -1,0 +1,9 @@
+export const activity0 = 8200;
+export const T = 5.27;
+export const date0 = "2011-02-15";
+export const date = "2019-05-15";
+export const r0 = 164;
+export const rl = 500;
+export const x = 0;
+export const y = 0;
+export const L = 100;
