@@ -7,7 +7,6 @@
 
 .start {
   height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
   margin-top: 30pt;
@@ -40,17 +39,50 @@ input {
 }
 
 .graph {
-  width: 900px;
-  height: 900px;
+  width: 90%;
+  height: 90%;
+  min-width: 900px;
+  min-height: 900px;
 }
 
 
 @media screen and (max-width: 375px) {
   .graph {
-    width: 375px;
-    height: 375px;
-  }
-  #root {
-    min-width: 375px;
+    width: 310px;
+    height: 500px;
+    margin: 0 auto;
   }
   }
+
+@media screen and (max-width: 320px) {
+    .graph {
+      width: 260px;
+      height: 500px;
+      margin: 0 auto;
+    }
+  }
+
+
+@media screen and (max-width: 425px) {
+  .graph {
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .graph {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .graph {
+    width: 700px;
+    height: 450px;
+    margin: 0 auto;
+  }
+}

@@ -5,7 +5,7 @@ class PlanePlot extends React.Component {
   render() {
     return (
       <div>
-        <Plot
+        <Plot className="graph"
         data={[
             {
                 z: this.props.dose,
@@ -24,8 +24,6 @@ class PlanePlot extends React.Component {
             }
         ]}
         layout={{
-            width: 900,
-            height: 800,
             paper_bgcolor:"#242424",
             xaxis: {
               title: {
